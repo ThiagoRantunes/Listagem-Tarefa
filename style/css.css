@@ -1,0 +1,96 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+}
+.cabecario{
+    background-color: rgb(175, 175, 175);
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+h1{
+    margin: 5px 5px;
+}
+.box{
+    width: 100%;
+}
+.end-c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 5px;
+}
+.btn-deletar{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.btn-deletar:hover{
+    background-color: rgb(161, 6, 6);
+}
+.box-btn{
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: green;
+    color: white;
+    width: 100%;
+}
+#exibir{
+    background-color: grey;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+#exibir:hover{
+    background-color: rgb(78, 78, 78);
+}
+#ip1{
+    width: 30%;
+}
+#ip3{
+    width: 55%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.item{
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas:
+    "div div"
+    "div div";
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.itens{
+    margin: 5px 5px;
+}
+
+@media (max-width: 600px){
+    .item{
+        display: grid;
+        grid-template-areas:
+        "div"
+        "div";
+
+    }
+}
